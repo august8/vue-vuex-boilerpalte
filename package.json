@@ -1,0 +1,34 @@
+{
+  "name": "vue-vuex-boilerplate",
+  "version": "1.0.0",
+  "description": "vue, vuex, vue-router",
+  "main": "main.js",
+  "author": "August8",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src/*.{js,vue}",
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^4.7.1",
+    "style-loader": "^0.23.0",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
