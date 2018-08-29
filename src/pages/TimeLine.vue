@@ -18,7 +18,7 @@ import Card from "../components/Card.vue";
 import { mapGetters } from "vuex";
 export default {
   computed: {
-    ...mapGetters(["gifs"])
+    ...mapGetters("Gipfy", ["gifs"])
   },
   components: {
     Search,

@@ -1,11 +1,7 @@
-import Vuex from 'vuex';
-import Vue from 'vue';
 import {
   CHANGE_KEYWORD,
   SEARCH,
-} from './mutation-types.js';
-
-Vue.use(Vuex);
+} from '../mutation-types.js';
 
 const state = {
   keyword: '',
@@ -49,9 +45,10 @@ const mutations = {
   },
 };
 
-export default new Vuex.Store({
+export default {
+  namespaced: true,
   state,
   getters,
   actions,
   mutations,
-});
+};

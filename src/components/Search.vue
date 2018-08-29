@@ -7,10 +7,10 @@
 
 <script>
 import { mapActions } from "vuex";
-import { CHANGE_KEYWORD, SEARCH } from "../vuex/mutation-types.js";
+import { CHANGE_KEYWORD, SEARCH } from "../store/mutation-types.js";
 export default {
   methods: {
-    ...mapActions([CHANGE_KEYWORD, SEARCH])
+    ...mapActions("Gipfy", [CHANGE_KEYWORD, SEARCH])
   }
 };
 </script>
